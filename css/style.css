@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    background-image: url(../Снимок\ экрана\ \(50\).png);
+    padding: 20px;
+    overflow: hidden;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.container h2{
+    margin-top: 30px;
+
+}
+
+.p2{
+    margin-left: 135px;
+    margin-top: 10px;
+    width: 90px;
+    height: 4px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.p1{
+    margin-top: 10px;
+}
+
+.container h4{
+    padding: 10px;
+    color: white;
+    transform: translateY(550px);
+    transition-duration: 0.50s;
+}
+
+.container:hover h4{
+    transform: translateY(80px);
+
+}
+
+.box{
+    margin-top: 195px;
+}
